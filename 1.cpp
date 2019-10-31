@@ -2,7 +2,7 @@
 #include <cmath>
 
 int main(){
-	float calcular([float r]){
+	float calcular([float r=2]){
 		float d;
 		d = 2*r;
 		float p;
