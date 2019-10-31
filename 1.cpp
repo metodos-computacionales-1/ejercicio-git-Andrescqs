@@ -2,16 +2,16 @@
 #include <cmath>
 
 int main(){
-	float calcular([float r]){
-		float d;
-		d = 2*r;
-		float p;
-		p = 2*3.1415926*r;
-		float a;
-		a = 3.1415926*r*r;
-	std::cout << d << " " << p << " " << a << std::endl
-	}
-
-	calcular(2);
+	float diam(float r){
+		return 2*r;
+		}
+	float peri(float r){
+		return 2*3.1415926*r;
+		};
+	float area(float r){
+		return 3.1415926*r*r;
+		}
+	std::cout << diam(2) << " " << peri(2) << " " << area(2) << std::endl;
+	
 return 0;
 }
