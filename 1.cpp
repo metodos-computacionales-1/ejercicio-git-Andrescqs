@@ -13,6 +13,6 @@ float area(float r){
 	}
 
 int main(){
-	std::cout << diam(2) << " " << peri(2) << " " << area(2) << std::endl;
+	std::cout << "El diametro es" <<  diam(2) << "El perimetro es " << peri(2) << "El área es " << area(2) << std::endl;
 	return 0;
 }
