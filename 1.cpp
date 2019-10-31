@@ -2,7 +2,7 @@
 #include <cmath>
 
 int main(){
-	float calcular([float r=2]){
+	float calcular([float r]){
 		float d;
 		d = 2*r;
 		float p;
@@ -11,5 +11,7 @@ int main(){
 		a = 3.1415926*r*r;
 	std::cout << d << " " << p << " " << a << std::endl
 	}
+
+	calcular(2);
 return 0;
 }
